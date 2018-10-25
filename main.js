@@ -17,7 +17,6 @@ planets.reverse();
 
 var select = document.getElementById('planets');
 
-
 planets.forEach(function(item) {
     var planet = item[0];
     var el = document.createElement('option');
@@ -32,18 +31,15 @@ function calculateWeight(weight, planetName) {
     for (var i = 0; i < planets.length; i++) {
         if (planetName === planets[i][0]) {
             var multiplier = planets[i][1];
-            
         } 
     }
     return multiplier * weight;
 }
 
 function handleClickEvent() {
-    
     var planetName = document.getElementById('planets').value;
-    var result = calculateWeight();
+    var result = calculateWeight().toFixed(2);
     document.getElementById('output').innerHTML = 'If you were on ' + planetName + ', you would weigh ' + result + ' lbs!';
-
 }
 
 document.getElementById('calculate-button').addEventListener('click', function(){handleClickEvent()});

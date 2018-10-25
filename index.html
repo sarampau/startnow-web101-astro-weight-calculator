@@ -3,13 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
   <body>
      <!-- Write your markup here  -->
-<input id="user-weight" type ="text" placeholder="Weight (lbs)" />
-<button id="calculate-button">Calculate</button>
-<select id="planets"></select>
-<p id="output"></p>
+    <h3 class="jumbotron">
+      <div class="container">
+        <input id="user-weight" type ="text" placeholder="Weight (lbs)" class="text-primary"/>
+        <select id="planets" class="text-warning"></select>
+        <button id="calculate-button" class="btn btn-success btn-sm">Calculate</button>
+        <p id="output" class="text-danger"></p>
+      </div>
+    </h3>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
