@@ -11,3 +11,9 @@ body {
     margin-bottom: 50px;
     color: rgb(180, 193, 207);
 }
+
+#output {
+    font-family: Play, Arial, sans-serif;
+    color: rgb(245, 245, 245);
+    font-size: 30px;
+}
