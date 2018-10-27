@@ -1,3 +1,13 @@
 body {
-    background-color: rgb(189, 141, 141);
+    background: url("https://cdn.spacetelescope.org/archives/images/screen/heic1713a.jpg")
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Orbitron, Arial, san-serif;
+    font-size: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(180, 193, 207);
 }
