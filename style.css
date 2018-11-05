@@ -10,6 +10,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     color: rgb(180, 193, 207);
+    text-shadow: 5px 5px 2px rgb(97, 80, 80);
 }
 
 .container {
@@ -20,9 +21,9 @@ body {
 }
 
 #user-weight {
-    width: 250px;
-    height: 25px;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 40px;
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
@@ -32,9 +33,9 @@ body {
 }
 
 #planets {
-    width: 255px;
-    height: 30px;
-    margin-bottom: 20px;
+    width: 305px;
+    height: 35px;
+    margin-bottom: 40px;
     border-radius: 5px;
     font-size: 18px;
     background-color: rgba(104, 106, 107, 0.479);
@@ -43,9 +44,9 @@ body {
 }
 
 #calculate-button {
-    width: 255px;
-    height: 30px;
-    margin-bottom: 20px;
+    width: 305px;
+    height: 50px;
+    margin-bottom: 40px;
     border-radius: 5px;
     font-size: 18px;
     background-color: rgba(104, 106, 107, 0.479);
@@ -57,4 +58,5 @@ body {
     font-family: Play, Arial, sans-serif;
     color: rgb(245, 245, 245);
     font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(97, 80, 80);
 }
