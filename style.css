@@ -28,6 +28,7 @@ body {
     text-align: center;
     background-color: rgba(104, 106, 107, 0.479);
     border-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(19, 18, 18);
 }
 
 #planets {
@@ -38,6 +39,7 @@ body {
     font-size: 18px;
     background-color: rgba(104, 106, 107, 0.479);
     border-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(19, 18, 18);
 }
 
 #calculate-button {
@@ -48,6 +50,7 @@ body {
     font-size: 18px;
     background-color: rgba(104, 106, 107, 0.479);
     border-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(19, 18, 18);
 }
 
 #output {
