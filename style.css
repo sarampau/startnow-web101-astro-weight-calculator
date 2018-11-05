@@ -15,21 +15,25 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 500px
+    width: 500px;
+    margin-left: 100px;
 }
 
 #user-weight {
-    height: 20px;
+    width: 200px;
+    height: 25px;
     margin-bottom: 20px;
 }
 
 #planets {
-    height: 20px;
+    width: 200px;
+    height: 25px;
     margin-bottom: 20px;
 }
 
 #calculate-button {
-    height: 20px;
+    width: 200px;
+    height: 25px;
     margin-bottom: 20px;
 }
 
