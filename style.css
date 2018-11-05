@@ -20,21 +20,34 @@ body {
 }
 
 #user-weight {
-    width: 200px;
+    width: 250px;
     height: 25px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(104, 106, 107, 0.479);
+    border-color: rgb(0, 0, 0);
 }
 
 #planets {
-    width: 200px;
-    height: 25px;
+    width: 255px;
+    height: 30px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgba(104, 106, 107, 0.479);
+    border-color: rgb(0, 0, 0);
 }
 
 #calculate-button {
-    width: 200px;
-    height: 25px;
+    width: 255px;
+    height: 30px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgba(104, 106, 107, 0.479);
+    border-color: rgb(0, 0, 0);
 }
 
 #output {
