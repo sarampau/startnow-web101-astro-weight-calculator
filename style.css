@@ -1,5 +1,6 @@
 body {
-    background: url("https://cdn.spacetelescope.org/archives/images/screen/heic1713a.jpg")
+    background: url("https://cdn.spacetelescope.org/archives/images/screen/heic1713a.jpg");
+    background-attachment: fixed;
 }
 
 .title {
@@ -59,4 +60,15 @@ body {
     color: rgb(245, 245, 245);
     font-size: 30px;
     text-shadow: 2px 2px 5px rgb(97, 80, 80);
+}
+
+img {
+    display: flex;
+    float: right;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+
 }
